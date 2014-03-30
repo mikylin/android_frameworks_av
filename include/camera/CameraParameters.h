@@ -756,6 +756,11 @@ public:
     //Redeye Reduction
     static const char KEY_REDEYE_REDUCTION[];
     static const char KEY_SUPPORTED_REDEYE_REDUCTION[];
+
+   // the fxxking xiaomi stuff
+   static const char KEY_GAMMA[];
+   static const char KEY_CONVERSION[];
+   static const char KEY_MATRIX[];
 #endif
 
     // Values for white balance settings.
@@ -867,6 +872,9 @@ public:
     static const char PIXEL_FORMAT_RGB565[];
     static const char PIXEL_FORMAT_RGBA8888[];
     static const char PIXEL_FORMAT_JPEG[];
+    static const char FILE_FORMAT_MPO[];
+    static const char FILE_FORMAT_JPS[];    
+    
     // Raw bayer format used for images, which is 10 bit precision samples
     // stored in 16 bit words. The filter pattern is RGGB.
     static const char PIXEL_FORMAT_BAYER_RGGB[];
